@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>File Storage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Управление файлами</h1>
+  <section class="wrapper">
+    <div id="upload_area" class="upload__area">Перетащите файлы в эту область или нажмите на кнопку</div>
+    <div class="input__wrapper"></div>
+      <input name="file" type="file" id="upload" class="input__file" multiple>
+      <label for="upload" class="input__file-button">
+        <span class="input__file-icon-wrapper">
+          <img src="images/download.svg" class="input__file-icon" alt="Выберите файлы" width="25">
+        </span>
+        <span class="input__file-button-text">Выберите файлы</span>
+      </label>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
