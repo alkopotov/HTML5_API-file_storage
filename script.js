@@ -106,7 +106,7 @@ function formatNumber(num, sep = ' '){
 displayFiles(Object.keys(localStorage))
 
 function displayFiles(files) {
-  if (files.length) {
+  if (localStorage.length) {
     setTypeOptions(getStoredFileTypes())
     wrapper.append(labelFileSize)
     fileList.innerHTML = ''
